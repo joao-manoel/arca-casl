@@ -1,14 +1,24 @@
 {
   "name": "arca-casl",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Gerenciador de permissões usando CASL para apps Node e Next.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "casl",
+    "permissions",
+    "auth",
+    "zod",
+    "rbac"
+  ],
+  "author": "João Manoel",
+  "license": "MIT",
   "type": "commonjs",
   "dependencies": {
     "@casl/ability": "^6.7.3",
